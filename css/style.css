@@ -194,11 +194,24 @@ body {
   margin-right: 5px;
 }
 .contacts-section-link {
-  color: #565e6a;
+  margin-bottom: 8px;
+  color: #ffffff;
+  /* color: #565e6a; */
+   /* color:#fb6d3a; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
+}
+.contacts-section-link:hover {
+  color:#fb6d3a;
+}
+.contacts-icon {
+  fill: #fb6d3a;
+  /* fill: currentColor; */
+  margin-right: 5px;
+  padding: 0;
 }
 
 /* Tech skills section */
