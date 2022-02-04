@@ -177,7 +177,18 @@ body {
   width: 370px;
   padding: 40px 0;
 }
-
+.photo {
+  width: 300px;
+  padding-left: 35px;
+  padding-right: 35px;
+  /* height: 300px; */
+  /* margin-left: 12px; */
+  /* margin-right: auto; */
+ 
+  /* border-radius: 50%; */
+  /* border-color:#fb6d3a; */
+  /* border: 3px solid #fb6d3a; */
+}
 .contacts-section,
 .tech-skills-section,
 .soft-skills-section,
@@ -259,7 +270,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.photo {
-  width: 370px;
+/* .photo {
+  width: 370px; */
   /* height: 250px; */
-}
+/* } */
