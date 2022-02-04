@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
-  background: #ffffff;
+  background: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -94,12 +94,15 @@ body {
 
 /* My work experience */
 
-.my-work-experience-company {
+.my-work-experience-company,
+.my-education-place,
+.my-projects-link {
   color: #fb6d3a;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 0 10px 0;
 }
 .my-work-experience-position {
   font-style: normal;
@@ -109,7 +112,9 @@ body {
   color: #000;
   margin: 0 0 10px 0;
 }
-.my-work-experience-period {
+.my-work-experience-period,
+.my-education-period,
+.my-project-period {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -120,10 +125,12 @@ body {
 .my-work-experience-divider {
   color: #000;
 }
-.my-work-experience-duties {
+.my-work-experience-duties,
+.my-project-specific-list {
   padding: 0 0 0 22px;
 }
-.my-work-experience-duty {
+.my-work-experience-duty,
+.my-project-specific-item {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -134,14 +141,14 @@ body {
   margin-bottom: 15px;
 }
 /* My education section */
-.my-education-place {
+/* .my-education-place {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
   margin: 0 0 10px 0;
-}
+} */
 .my-education-speciality {
   font-style: normal;
   font-weight: bold;
@@ -150,13 +157,7 @@ body {
   color: #000000;
   margin: 0 0 10px 0;
 }
-.my-education-period {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-}
+
 .my-education-period-divider {
   color: #000;
 }
