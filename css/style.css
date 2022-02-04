@@ -3,11 +3,11 @@ body {
   background-color: #f5f7fa;
 }
 
-.about-me-profession {
+/* .about-me-profession {
   font-size: 14px;
   font-weight: 700;
   color: black;
-}
+} */
 
 .main-container {
   display: flex;
@@ -19,38 +19,45 @@ body {
 }
 /* Main content section */
 .main-content-section {
-  padding: 50px 90px;
+  padding: 40px 80px;
+}
+.section-divider {
+  margin: 0;
+  border-color: #fb6d3a;
 }
 .main-content-title {
+   /* font-family: 'Permanent Marker', cursive; */
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 32px;
   line-height: 27px;
   color: #000;
   margin-bottom: 10px;
 }
 /* About me section */
-.about-me-section {
+/* .about-me-section {
   margin: 0 0 40px 0;
-}
+} */
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 18px;
+  /* line-height: 17px; */
   color: #000;
   margin: 0 0 20px 0;
 }
 .about-me-name {
+  /* font-family: 'Permanent Marker', cursive; */
+  /* font-family: 'Comforter', cursive; */
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 70px;
+  /* line-height: 1.7; */
   color: #000;
-  margin: 0 0 25px 0;
+  margin: 0;
 }
 .about-me-description {
-  width: 400px;
+  width: 600px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -58,13 +65,14 @@ body {
   color: #595959;
 }
 /* My projects section */
-.my-projects-section {
+/* .my-projects-section {
   margin-bottom: 50px;
-}
+} */
 .my-projects-list {
   padding: 0 0 0 18px;
 }
-.my-projects-item {
+.my-project-item {
+  margin-bottom: 0;
   color: #000;
   font-weight: bold;
 }
@@ -74,6 +82,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  /* text-decoration: none; */
 }
 
 .my-projects-text {
@@ -128,6 +137,7 @@ body {
 .my-work-experience-duties,
 .my-project-specific-list {
   padding: 0 0 0 22px;
+  margin-top: 0;
 }
 .my-work-experience-duty,
 .my-project-specific-item {
@@ -172,7 +182,7 @@ body {
 .tech-skills-section,
 .soft-skills-section,
 .language-section {
-  margin: 50px 40px 0 40px;
+  margin: 40px 40px 0 40px;
 }
 
 .side-bar-title {
