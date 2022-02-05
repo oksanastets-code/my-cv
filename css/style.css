@@ -102,7 +102,7 @@ body {
 }
 
 /* My work experience */
-
+/* My education section (partly)*/
 .my-work-experience-company,
 .my-education-place,
 .my-projects-link {
@@ -151,14 +151,6 @@ body {
   margin-bottom: 15px;
 }
 /* My education section */
-/* .my-education-place {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fb6d3a;
-  margin: 0 0 10px 0;
-} */
 .my-education-speciality {
   font-style: normal;
   font-weight: bold;
@@ -181,10 +173,6 @@ body {
   width: 300px;
   padding-left: 35px;
   padding-right: 35px;
-  /* height: 300px; */
-  /* margin-left: 12px; */
-  /* margin-right: auto; */
- 
   /* border-radius: 50%; */
   /* border-color:#fb6d3a; */
   /* border: 3px solid #fb6d3a; */
@@ -270,7 +258,3 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* .photo {
-  width: 370px; */
-  /* height: 250px; */
-/* } */
