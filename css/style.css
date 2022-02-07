@@ -100,6 +100,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #000;
+  display: none;
 }
 
 /* My work experience */
@@ -141,7 +142,8 @@ body {
   margin-top: 0;
 }
 .my-work-experience-duty,
-.my-project-specific-item {
+.my-project-specific-item,
+.my-project-link-code {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -241,7 +243,8 @@ body {
 
 .tech-skills-item-text,
 .soft-skills-item-text,
-.language-item-text {
+.language-item-text,
+.language-level {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -257,5 +260,6 @@ body {
 }
 .language-item-box {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  
 }
