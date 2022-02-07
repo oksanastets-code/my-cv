@@ -2,7 +2,8 @@ body {
   font-family: "Montserrat", sans-serif;
   /* background-color: #f5f7fa; */
   background-color: #fff;
-
+margin: 0;
+padding: 0;
 }
 
 /* .about-me-profession {
@@ -16,12 +17,13 @@ body {
   flex-direction: row-reverse;
   width: 1200px;
   background: #fff;
-  margin: 60px auto;
+  margin: 100px auto;
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
 }
 /* Main content section */
 .main-content-section {
-  padding: 40px 80px;
+   padding: 0 80px;
+  /* padding: 40px 80px; */
 }
 .section-divider {
   margin: 0;
