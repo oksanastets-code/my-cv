@@ -16,13 +16,15 @@ padding: 0;
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
+  height: 1760px;
   background: #fff;
-  margin: 100px auto;
+  /* margin: 100px auto; */
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
 }
 /* Main content section */
 .main-content-section {
-   padding: 0 80px;
+   padding: 10px 80px;
+   
   /* padding: 40px 80px; */
 }
 .section-divider {
@@ -65,7 +67,7 @@ padding: 0;
   width: 600px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -132,7 +134,7 @@ padding: 0;
 .my-project-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   /* color: #a8a8a8; */
   color: #595959;
@@ -190,7 +192,7 @@ padding: 0;
 .tech-skills-section,
 .soft-skills-section,
 .language-section {
-  margin: 40px 40px 0 40px;
+  margin: 50px 40px 0 40px;
 }
 
 .side-bar-title {
@@ -222,7 +224,7 @@ padding: 0;
    /* color:#fb6d3a; */
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   text-decoration: none;
 }
