@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "title": "Tech Skills",
+    "stack": [
+      "HTML5",
+      "CSS3 / SASS / CSS-in-JS",
+      "JavaScript",
+      "Parcel",
+      "Webpack",
+      "Handlebars",
+      "React / Redux",
+      "React-Router",
+      "Node / NPM",
+      "REST API / CRUD",
+      "Expess / Postman",
+      "Git",
+      "Agile, Scrum",
+      "Trello"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Soft Skills",
+    "stack": [
+      "Willingness to learn and quick learning",
+      "Creative thinking skills",
+      "Positive thinking",
+      "Thoughtful and attentive to details",
+      "Open-minded",
+      "Initiative",
+      "Innovative and up to technologies",
+      "Responsive and reliable",
+      "Self-motivated and determined",
+      "Problem-solving skills",
+      "Decision making skills",
+      "With sense of humor"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Languages",
+    "stack": [
+      {
+        "lang": "English",
+        "level": "Upper-Intermediate"
+      },
+      {
+        "lang": "German",
+        "level": "Pre-Intermediate"
+      },
+      {
+        "lang": "Polish",
+        "level": "Pre-Intermediate"
+      },
+      {
+        "lang": "Russian",
+        "level": "Fluent"
+      },
+      {
+        "lang": "Ukrainian",
+        "level": "Native"
+      }
+    ]
+  }
+]
