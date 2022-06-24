@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "school": "GoIT Frontend Full Stack Online",
+        "qualification": "Full Stack Developer",
+        "period": "April 2021 - June 2022",
+        "place": "Ukraine"
+    },
+    {
+        "id": "2",
+        "school": "Lviv Polytechnic National University",
+        "qualification": "Heating Gas Air-Conditioning Engineer",
+        "period": "September 1990 - June 1995",
+        "place": "Ukraine"
+    }
+]

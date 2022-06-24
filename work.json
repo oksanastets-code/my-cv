@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "job": "Engineer",
+        "company": "Termal PP",
+        "period": "August 2010 - up to now",
+        "place": "Ukraine",
+        "duties": [
+            "This private company performs all types of construction installation work, such as installation of heating, water supply, drainage, air conditioning, ventilation etc.",
+            "Work with drawing sheets, specifications.",
+            "Customer support and office management."
+        ]
+    },
+    {
+        "id": "2",
+        "job": "Technical Manager",
+        "company": "Viessmann Ukraine",
+        "period": "March 2000 - August 2010",
+        "place": "Ukraine",
+        "duties": [
+            "Providing technical advice to partners, dealing with technical documentation.",
+            "Making lists of equipment for commercial offers and selling with SAP.",
+            "Organizing courses for servicemen, installers and engineers (Viessmann Academy)."
+        ]
+    }
+]
