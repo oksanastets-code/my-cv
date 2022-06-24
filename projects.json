@@ -1,0 +1,35 @@
+[
+  {
+    "id": "id-2",
+    "type": "Individual Project",
+    "name": "Phonebook",
+    "deployLink": "https://oksanastets-code.github.io/goit-react-hw-08-phonebook/",
+    "period": "January - February",
+    "stack": "Webpack, React, Redux-Toolkit",
+    "descr": "An application to manage user's contacts (add, remove, search) after his authorization on backend. Browse code",
+    "codeLink": "https://github.com/oksanastets-code/goit-react-hw-08-phonebook",
+    "note": ""
+  },
+  {
+    "id": "id-3",
+    "type": "Team Project",
+    "name": "TMPL",
+    "deployLink": "https://tmplgitp.gatsbyjs.io/",
+    "period": "December",
+    "stack": "Webpack, React, Gatsby.js, Google Maps API, i18next, Git",
+    "descr": "Static website of a modern gym with adaptive design for mobile, tablet and desktop breakpoints. Browse code",
+    "codeLink": "https://github.com/oksanastets-code/TMPL",
+    "note": "Role: Contributor. Experience with Garsby.js framework based on React library."
+  },
+  {
+    "id": "id-4",
+    "type": "Team Project",
+    "name": "Filmoteka",
+    "deployLink": "https://oksanastets-code.github.io/goit-38online-13group-project-js-filmoteka/",
+    "period": "November",
+    "stack": "HTML5, CSS3/SASS, BEM, Parcel, JavaScript, REST API, Handlebars, Git",
+    "descr": "An application for searching trend movies and getting movie's details using TMDB's API based on pure Javascript. User can choose the language and sort the movies into a queue-list or a watched-list. Browse code",
+    "codeLink": "https://github.com/oksanastets-code/goit-38online-13group-project-js-filmoteka",
+    "note": "Role: Team Lead. The experience of merging contributor's branches, resolving git-conflicts."
+  }
+]
