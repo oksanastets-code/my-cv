@@ -1,3 +1,3 @@
 export const App = () => {
-  return <>This is my cv</>;
+  return <>Please, be patient, cv is going to be up to date</>;
 };
