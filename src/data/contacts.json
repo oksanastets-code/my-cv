@@ -1,38 +1,33 @@
 [
   {
     "id": "1",
-    "title": "tel",
+    "href": "tel:+380677915511",
     "icon": "./img/sprite.svg#icon-icon-smartphone",
     "address": "+38 067 791 55 11"
   },
   {
     "id": "2",
-    "title": "email",
+    "href": "mailto:oksanastets73@gmail.com",
     "icon": "./img/sprite.svg#icon-icon-email",
     "address": "oksanastets73@gmail.com"
   },
   {
     "id": "3",
-    "title": "telegram",
+    "href": "https://t.me/oksana_stets",
     "icon": "./img/sprite.svg#icon-icon-telegram",
     "address": "@oksana_stets"
   },
   {
     "id": "4",
-    "title": "linkedin",
+    "href": "https://www.linkedin.com/in/oksana-stets",
     "icon": "./img/sprite.svg#icon-icon-linkedin",
     "address": "in/oksana-stets"
   },
   {
     "id": "5",
-    "title": "github",
+    "href": "https://github.com/oksanastets-code",
     "icon": "./img/sprite.svg#icon-icon-github",
     "address": "oksanastets-code"
-  },
-  {
-    "id": "6",
-    "title": "location",
-    "icon": "./img/sprite.svg#icon-icon-location",
-    "address": "Lviv, Ukraine"
   }
+ 
 ]

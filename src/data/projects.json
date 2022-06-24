@@ -1,4 +1,4 @@
-[
+ [
   {
     "id": "1",
     "type": "Team Project",
@@ -6,7 +6,7 @@
     "deployLink": "https://book-read.vercel.app/",
     "period": "June",
     "stack": "Webpack, React, CSS-in-JS, Axios, React-Router, Redux, React-Media, Formik, Git",
-    "descr": "Complete (frontend + backend) final project-application as helper to develop useful habits. User can create his own profile with bookshelf and set his goals. Application calculates amount of pages for daily reading to achieve the goal, build a chart and motivate user. This is frontend-part. Browse code",
+    "descr": "Complete (frontend + backend) final project-application as helper to develop useful habits. User can create his own profile with bookshelf and set his goals. Application calculates amount of pages for daily reading to achieve the goal, build a chart and motivate user. This is frontend-part. Browse",
     "codeLink": "https://github.com/oksanastets-code/book-reading-frontend",
     "note": "Role: Contributor. Experience to work with React libraries"
   },
@@ -17,7 +17,7 @@
     "deployLink": "",
     "period": "May",
     "stack": "Node.js, Express, Postman, Joi, MongoDB, Mongoose, JWT, Multer, Sendgrid, Gravatar",
-    "descr": "Backend for user's registration with email, login, adding avatar or picture to profile and manipulation on his contacts (CRUD). Browse code",
+    "descr": "Backend for user's registration with email, login, adding avatar or picture to profile and manipulation on his contacts (CRUD). Browse",
     "codeLink": "https://github.com/oksanastets-code/goit-nodejs-hw-rest-api",
     "note": ""
   },
@@ -28,7 +28,7 @@
     "deployLink": "https://oksanastets-code.github.io/goit-react-hw-08-phonebook/",
     "period": "January - February",
     "stack": "Webpack, React, Redux-Toolkit",
-    "descr": "An application to manage user's contacts (add, remove, search) after his authorization on backend. Browse code",
+    "descr": "An application to manage user's contacts (add, remove, search) after his authorization on backend. Browse",
     "codeLink": "https://github.com/oksanastets-code/goit-react-hw-08-phonebook",
     "note": ""
   },
@@ -39,7 +39,7 @@
     "deployLink": "https://tmplgitp.gatsbyjs.io/",
     "period": "December",
     "stack": "Webpack, React, Gatsby.js, Google Maps API, i18next, Git",
-    "descr": "Static website of a modern gym with adaptive design for mobile, tablet and desktop breakpoints. Browse code",
+    "descr": "Static website of a modern gym with adaptive design for mobile, tablet and desktop breakpoints. Browse",
     "codeLink": "https://github.com/oksanastets-code/TMPL",
     "note": "Role: Contributor. Experience with Garsby.js framework based on React library."
   },
@@ -50,7 +50,7 @@
     "deployLink": "https://oksanastets-code.github.io/goit-38online-13group-project-js-filmoteka/",
     "period": "November",
     "stack": "HTML5, CSS3/SASS, BEM, Parcel, JavaScript, REST API, Handlebars, Git",
-    "descr": "An application for searching trend movies and getting movie's details using TMDB's API based on pure Javascript. User can choose the language and sort the movies into a queue-list or a watched-list. Browse code",
+    "descr": "An application for searching trend movies and getting movie's details using TMDB's API based on pure Javascript. User can choose the language and sort the movies into a queue-list or a watched-list. Browse",
     "codeLink": "https://github.com/oksanastets-code/goit-38online-13group-project-js-filmoteka",
     "note": "Role: Team Lead. The experience of merging contributor's branches, resolving git-conflicts."
   },
@@ -61,7 +61,7 @@
     "deployLink": "https://muzzlegit.github.io/team-ice-cream/",
     "period": "July",
     "stack": "HTML5, CSS3/SASS, BEM, Parcel, Git",
-    "descr": "A landing page of homemade ice-cream company. There're several basic solutions with JS such as buttons for open or close modals. Browse code",
+    "descr": "A landing page of homemade ice-cream company. There're several basic solutions with JS such as buttons for open or close modals. Browse",
     "codeLink": "https://github.com/oksanastets-code/team-ice-cream",
     "note": "Role: Contributor. The first experience of team work, work with bundler, creating temporary branches and pull-requests."
   },
@@ -72,7 +72,7 @@
     "deployLink": "https://oksanastets-code.github.io/goit-markup-hw-08/",
     "period": "June",
     "stack": "HTML5, CSS3/SASS, BEM",
-    "descr": "2-paged site of web-studio with portfolio. There're applied different CSS-solutions such as work with SVG, forms, animation, positioning. Adaptive and responsive design. Browse code",
+    "descr": "2-paged site of web-studio with portfolio. There're applied different CSS-solutions such as work with SVG, forms, animation, positioning. Adaptive and responsive design. Browse",
     "codeLink": "https://github.com/oksanastets-code/goit-markup-hw-08",
     "note": ""
   }
