@@ -1,10 +1,36 @@
+import styled from 'styled-components';
+
 export const SkillItem = ({ title, stack }) => (
-  <>
-    <h3>{title}</h3>
-    <ul>
+  <Block>
+    <Title>{title}</Title>
+    <List>
       {stack.map((item, index) => (
-        <li key={index}>{item}</li>
+        <Item key={index}>
+          <ItemText>{item}</ItemText>
+        </Item>
       ))}
-    </ul>
-  </>
+    </List>
+  </Block>
 );
+const Block = styled.div`
+  margin: 50px 40px 0 40px;
+  color: #ffffff;
+`;
+const Title = styled.h3`
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+`;
+const List = styled.ul`
+  list-style: initial;
+  list-style-position: inside;
+`;
+const Item = styled.li`
+  font-size: 14px;
+  line-height: 1.71;
+  color: #fb6d3a;
+`;
+const ItemText = styled.span`
+  color: white;
+`;
