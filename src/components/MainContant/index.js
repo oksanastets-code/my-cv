@@ -1,0 +1,1 @@
+export {MainContant } from './MainContant';
