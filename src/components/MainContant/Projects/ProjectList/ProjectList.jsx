@@ -1,10 +1,15 @@
+import styled from 'styled-components';
+
 import { Project } from '../Project/Project';
 
 export const ProjectList = ({ items }) => {
-  //   const { id, type, deployLink, name, period, stack, descr, note, codeLink } =
-  //     items;
+    // const { id, type, deployLink, name, period, stack, descr, note, codeLink } =
+    //   items;
 
   return (
+            <div>
+          <h3>Project experience</h3>
+
     <div>
       <ul>
         {items.map(item => (
@@ -22,6 +27,7 @@ export const ProjectList = ({ items }) => {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 };
