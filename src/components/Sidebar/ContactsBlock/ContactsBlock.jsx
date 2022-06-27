@@ -1,16 +1,19 @@
+import styled from 'styled-components';
+import sprite from '../../../img/sprite.svg';
+
 export const ContactBlock = ({ items }) => (
-  <>
-    <h3>Contacts</h3>
+  <Block>
+    <Title>Contacts</Title>
     <ul>
       {items.map(item => (
-        <li key={item.id}>
+        <ContactItem key={item.id}>
           <a href={item.href}>
-            {/* <svg>
-              <use href={item.icon}></use>
-            </svg> */}
+            <Icon width="16" height="1rem">
+              <use href={`${sprite}{item.icon}`}></use>
+            </Icon>
             {item.address}
           </a>
-        </li>
+        </ContactItem>
       ))}
     </ul>
     <address>
@@ -19,5 +22,25 @@ export const ContactBlock = ({ items }) => (
       </svg> */}
       Lviv, Ukraine
     </address>
-  </>
+  </Block>
 );
+
+const Block = styled.div`
+margin-top: 50px;
+margin-bottom: 50px;
+`;
+const Title = styled.h3`
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+`;
+const ContactItem = styled.li`
+   display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 24px;
+`
+const Icon = styled.svg`
+  fill: ${p => p.theme.colors.secondary};
+`

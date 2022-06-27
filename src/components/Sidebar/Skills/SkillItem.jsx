@@ -13,8 +13,6 @@ export const SkillItem = ({ title, stack }) => (
   </Block>
 );
 const Block = styled.div`
-  margin: 50px 40px 0 40px;
-  color: #ffffff;
 `;
 const Title = styled.h3`
   font-weight: bold;
@@ -29,8 +27,8 @@ const List = styled.ul`
 const Item = styled.li`
   font-size: 14px;
   line-height: 1.71;
-  color: #fb6d3a;
+  color: ${p => p.theme.colors.secondary};
 `;
 const ItemText = styled.span`
-  color: white;
+  color: ${p => p.theme.colors.textSidebar};
 `;

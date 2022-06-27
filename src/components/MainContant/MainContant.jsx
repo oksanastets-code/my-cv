@@ -13,9 +13,9 @@ export const MainContant = () => {
   return (
     <MainContantSection>
       <Intro />
-      <ProjectList items={projects} />;
-      <WorkList items={work} />;
-      <Education items={education} />;
+      <ProjectList items={projects} />
+      <WorkList items={work} />
+      <Education items={education} />
     </MainContantSection>
   );
 };

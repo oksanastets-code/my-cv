@@ -2,32 +2,31 @@
   {
     "id": "1",
     "href": "tel:+380677915511",
-    "icon": "./img/sprite.svg#icon-icon-smartphone",
+    "icon": "#icon-icon-smartphone",
     "address": "+38 067 791 55 11"
   },
   {
     "id": "2",
     "href": "mailto:oksanastets73@gmail.com",
-    "icon": "./img/sprite.svg#icon-icon-email",
+    "icon": "#icon-icon-email",
     "address": "oksanastets73@gmail.com"
   },
   {
     "id": "3",
     "href": "https://t.me/oksana_stets",
-    "icon": "./img/sprite.svg#icon-icon-telegram",
+    "icon": "#icon-icon-telegram",
     "address": "@oksana_stets"
   },
   {
     "id": "4",
     "href": "https://www.linkedin.com/in/oksana-stets",
-    "icon": "./img/sprite.svg#icon-icon-linkedin",
+    "icon": "#icon-icon-linkedin",
     "address": "in/oksana-stets"
   },
   {
     "id": "5",
     "href": "https://github.com/oksanastets-code",
-    "icon": "./img/sprite.svg#icon-icon-github",
+    "icon": "#icon-icon-github",
     "address": "oksanastets-code"
   }
- 
 ]

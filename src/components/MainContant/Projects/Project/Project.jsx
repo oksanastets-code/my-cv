@@ -25,44 +25,43 @@ export const Project = ({
             <LinkCode href={codeLink}>code.</LinkCode>
           </span>
         </DescrItem>
-        <DescrItem>{note}</DescrItem>
+        {note && <DescrItem>{note}</DescrItem>}
       </Descr>
     </ProjectBlock>
   );
 };
 const ProjectBlock = styled.div``;
 const ProjectTitle = styled.h4`
+  margin-bottom: 5px;
   font-size: 16px;
   line-height: 20px;
-  color: #000;
-  font-weight: bold;
+  color: ${p => p.theme.colors.title};
+  font-weight: 700;
 `;
 const ProjectLink = styled.a`
-  color: #fb6d3a;
+  color: ${p => p.theme.colors.secondary};
   text-decoration: underline;
-
   margin: 0 0 10px 5px;
 `;
 const Period = styled.p`
   font-size: 14px;
   line-height: 15px;
-  color: #595959;
-  margin: 0 0 10px 0;
+  color: ${p => p.theme.colors.text};
+  margin-bottom: 10px;
 `;
 const Descr = styled.ul`
-  padding-bottom: 22px;
   list-style-position: inside;
   list-style-type: initial;
 `;
 const DescrItem = styled.li`
   font-size: 14px;
   line-height: 24px;
-  color: #1e2939;
+  color: ${p => p.theme.colors.primary};
 `;
 const LinkCode = styled.a`
   margin-left: 5px;
   text-decoration: underline;
   &:hover {
-    color: #fb6d3a;
+    color: ${p => p.theme.colors.secondary};
   }
 `;

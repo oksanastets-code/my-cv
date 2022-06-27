@@ -1,15 +1,26 @@
+import styled from 'styled-components';
+
+import { ContainerBlock } from '../ContainerBlock';
 import { EducationItem } from './EducationItem';
+
 export const Education = ({ items }) => (
+  <ContainerBlock name = {'Education'}>
   <ul>
     {items.map(item => (
-      <li key={item.id}>
+      <EduBlock key={item.id}>
         <EducationItem
           school={item.school}
           qualification={item.qualification}
           period={item.period}
           place={item.place}
         />
-      </li>
+      </EduBlock>
     ))}
   </ul>
+   </ContainerBlock>
 );
+const EduBlock = styled.li`
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+`

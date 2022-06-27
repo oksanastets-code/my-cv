@@ -1,10 +1,14 @@
+import styled from 'styled-components';
+
+import { ContainerBlock } from '../ContainerBlock';
 import { WorkItem } from './WorkItem';
+
 export const WorkList = ({ items }) => {
   return (
-    <>
+    <ContainerBlock name = {'Work experience'}>
       <ul>
         {items.map(item => (
-          <li key={item.id}>
+          <WorkBlock key={item.id}>
             <WorkItem
               job={item.job}
               company={item.company}
@@ -12,9 +16,14 @@ export const WorkList = ({ items }) => {
               place={item.place}
               duties={item.duties}
             />
-          </li>
+          </WorkBlock>
         ))}
       </ul>
-    </>
+    </ContainerBlock>
   );
 };
+const WorkBlock = styled.li`
+  &:not(:last-child) {
+    margin-bottom: 22px;
+  }
+`

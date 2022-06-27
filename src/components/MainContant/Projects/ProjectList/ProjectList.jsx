@@ -1,19 +1,17 @@
 import styled from 'styled-components';
 
+import { ContainerBlock } from '../../ContainerBlock';
 import { Project } from '../Project/Project';
 
-export const ProjectList = ({ items }) => {
-    // const { id, type, deployLink, name, period, stack, descr, note, codeLink } =
-    //   items;
+export const ProjectList = ({ name, items }) => {
+  // const { id, type, deployLink, name, period, stack, descr, note, codeLink } =
+  //   items;
 
   return (
-            <div>
-          <h3>Project experience</h3>
-
-    <div>
+    <ContainerBlock name={'Project experience'}>
       <ul>
         {items.map(item => (
-          <li key={item.id}>
+          <ProjectItem key={item.id}>
             <Project
               type={item.type}
               deployLink={item.deployLink}
@@ -24,10 +22,15 @@ export const ProjectList = ({ items }) => {
               note={item.note}
               codeLink={item.codeLink}
             />
-          </li>
+          </ProjectItem>
         ))}
       </ul>
-    </div>
-    </div>
+    </ContainerBlock>
   );
 };
+
+const ProjectItem = styled.li`
+  &:not(:last-child) {
+    margin-bottom: 22px;
+  }
+`;

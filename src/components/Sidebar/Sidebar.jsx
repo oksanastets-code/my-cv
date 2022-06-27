@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { Photo } from './Photo/Photo';
 import { ContactBlock } from '../Sidebar/ContactsBlock/ContactsBlock';
 import { Skills } from '../Sidebar/Skills/Skills';
 import { Languages } from '../Sidebar/Languages/Languages';
@@ -11,6 +12,7 @@ import languages from '../../data/languages.json';
 export const Sidebar = () => {
   return (
     <AsideBar>
+      <Photo/>
       <ContactBlock items={contacts} />
       <Skills items={skills} />
       <Languages title={languages.title} stack={languages.stack} />
@@ -18,7 +20,9 @@ export const Sidebar = () => {
   );
 };
 const AsideBar = styled.aside`
-  background-color: #1e2939;
   width: 370px;
-  padding: 40px 0 10px 0;
+  padding: 40px 35px 10px 35px;
+  color: ${p => p.theme.colors.textSidebar};
+  background-color: #1e2939;
+  /* padding: 40px 0 10px 0; */
 `;
