@@ -7,4 +7,5 @@ export const Photo = () => (
 );
 const Image = styled.img`
   width: 300px;
+  margin-bottom: 50px;
 `;

@@ -26,8 +26,6 @@ export const ContactBlock = ({ items }) => (
 );
 
 const Block = styled.div`
-margin-top: 50px;
-margin-bottom: 50px;
 `;
 const Title = styled.h3`
   font-size: 22px;

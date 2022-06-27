@@ -15,9 +15,8 @@ export const SkillItem = ({ title, stack }) => (
 const Block = styled.div`
 `;
 const Title = styled.h3`
-  font-weight: bold;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 1.23;
   margin-bottom: 10px;
 `;
 const List = styled.ul`

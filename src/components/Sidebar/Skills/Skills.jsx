@@ -3,16 +3,21 @@ import styled from 'styled-components';
 import { SkillItem } from './SkillItem';
 
 export const Skills = ({ items }) => (
-  <>
+  <SkillsBlock>
     <ul>
       {items.map(item => (
-        <SkillsBlock key={item.id}>
+        <Block key={item.id}>
           <SkillItem title={item.title} stack={item.stack} />
-        </SkillsBlock>
+        </Block>
       ))}
     </ul>
-  </>
+  </SkillsBlock>
 );
-const SkillsBlock = styled.li`
-  margin-bottom: 50px;
+const SkillsBlock = styled.div`
+  padding: 50px 0;
+`
+const Block = styled.li`
+   &:not(:last-child) {
+    margin-bottom: 50px;
+  }
 `;
