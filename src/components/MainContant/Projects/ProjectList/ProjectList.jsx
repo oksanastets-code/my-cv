@@ -27,10 +27,9 @@ export const ProjectList = ({ name, items }) => {
           </ProjectItem>
         ))}
       </ul>
-      <More href="https://github.com/oksanastets-code"
-        target="_blank"
-      >
-        more</More>
+      <More href="https://github.com/oksanastets-code" target="_blank">
+        more
+      </More>
     </ContainerBlock>
   );
 };
