@@ -3,30 +3,42 @@
     "id": "1",
     "href": "tel:+380677915511",
     "icon": "#icon-icon-smartphone",
-    "address": "+38 067 791 55 11"
+    "point": "+38 067 791 55 11",
+    "address": false
   },
   {
     "id": "2",
     "href": "mailto:oksanastets73@gmail.com",
     "icon": "#icon-icon-email",
-    "address": "oksanastets73@gmail.com"
+    "point": "oksanastets73@gmail.com",
+    "address": false
   },
   {
     "id": "3",
     "href": "https://t.me/oksana_stets",
     "icon": "#icon-icon-telegram",
-    "address": "@oksana_stets"
+    "point": "@oksana_stets",
+    "address": false
   },
   {
     "id": "4",
     "href": "https://www.linkedin.com/in/oksana-stets",
     "icon": "#icon-icon-linkedin",
-    "address": "in/oksana-stets"
+    "point": "in/oksana-stets",
+    "address": false
   },
   {
     "id": "5",
     "href": "https://github.com/oksanastets-code",
     "icon": "#icon-icon-github",
-    "address": "oksanastets-code"
+    "point": "oksanastets-code",
+    "address": false
+  },
+  {
+    "id": "6",
+    "href": "https://goo.gl/maps/GDd5tVkVUQYHgnA29",
+    "icon": "#icon-icon-location",
+    "point": "Lviv, Ukraine",
+    "address": true
   }
 ]
