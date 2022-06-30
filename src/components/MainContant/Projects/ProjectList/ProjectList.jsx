@@ -12,7 +12,7 @@ export const ProjectList = ({ name, items }) => {
       <ul>
         {items.map(item => (
           <ProjectItem key={item.id}>
-            {item.id <= items.length - 2 ? (
+            {item.id < items.length - 2 ? (
               <Project
                 type={item.type}
                 deployLink={item.deployLink}
@@ -27,7 +27,7 @@ export const ProjectList = ({ name, items }) => {
           </ProjectItem>
         ))}
       </ul>
-      <More href="https://github.com/oksanastets-code" target="_blank">
+      <More href="https://www.linkedin.com/in/oksana-stets/details/projects/" target="_blank">
         more
       </More>
     </ContainerBlock>

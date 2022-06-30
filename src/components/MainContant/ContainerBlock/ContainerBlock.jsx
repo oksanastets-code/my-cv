@@ -10,21 +10,24 @@ export const ContainerBlock = ({ name, children }) => {
 };
 
 const ContainerBl = styled.div`
-  padding: 16px 0;
-  border-bottom: 2px solid ${p => p.theme.colors.secondary};
-  ${(props) => {
+  /* border-bottom: 2px solid ${p => p.theme.colors.secondary}; */
+
+  ${props => {
     switch (props.case) {
       case 'Education':
         return `
           border-bottom: none;
+          padding: 16px 0 0;
         `;
       default:
         return `
-         border-bottom: 2px solid ${p => p.theme.colors.secondary};
+         border-bottom: 2px solid #fb6d3a;
+         padding: 16px 0;
         `;
     }
   }}
 `;
+
 const BlockTitle = styled.h3`
   font-weight: 700;
   font-size: 32px;

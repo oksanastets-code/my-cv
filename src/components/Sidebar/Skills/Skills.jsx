@@ -14,7 +14,7 @@ export const Skills = ({ items }) => (
   </SkillsBlock>
 );
 const SkillsBlock = styled.div`
-  padding: 50px 0;
+  /* padding: 50px 0; */
 `
 const Block = styled.li`
    &:not(:last-child) {

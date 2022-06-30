@@ -21,5 +21,9 @@ export const MainContant = () => {
 };
 
 const MainContantSection = styled.div`
-  padding: 10px 80px 0;
+height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 80px 40px;
 `;
