@@ -21,5 +21,5 @@ export const MainContant = () => {
 };
 
 const MainContantSection = styled.div`
-  padding: 10px 80px;
+  padding: 10px 80px 0;
 `;

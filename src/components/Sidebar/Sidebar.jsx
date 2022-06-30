@@ -21,8 +21,12 @@ export const Sidebar = () => {
 };
 const AsideBar = styled.aside`
   width: 370px;
-  padding: 40px 35px 10px 35px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding: 40px 35px 0 35px;
   color: ${p => p.theme.colors.textSidebar};
   background-color: #1e2939;
-  /* padding: 40px 0 10px 0; */
 `;

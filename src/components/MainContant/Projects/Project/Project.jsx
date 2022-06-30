@@ -58,7 +58,7 @@ const DescrItem = styled.li`
   line-height: 24px;
   color: ${p => p.theme.colors.primary};
 `;
-const LinkCode = styled.a`
+export const LinkCode = styled.a`
   margin-left: 5px;
   text-decoration: underline;
   &:hover {
