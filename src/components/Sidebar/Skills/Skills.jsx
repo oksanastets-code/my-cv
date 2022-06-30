@@ -18,6 +18,6 @@ const SkillsBlock = styled.div`
 `
 const Block = styled.li`
    &:not(:last-child) {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 `;

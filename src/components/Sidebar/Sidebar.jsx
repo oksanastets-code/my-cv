@@ -24,9 +24,8 @@ const AsideBar = styled.aside`
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: space-around;
-  padding: 40px 35px 0 35px;
+  justify-content: space-between;
+  padding: 40px 35px 40px 35px;
   color: ${p => p.theme.colors.textSidebar};
   background-color: #1e2939;
 `;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContainerBlock = ({ name, children }) => {
   return (
-    <ContainerBl>
+    <ContainerBl case={name}>
       <BlockTitle>{name}</BlockTitle>
       {children}
     </ContainerBl>
@@ -12,6 +12,18 @@ export const ContainerBlock = ({ name, children }) => {
 const ContainerBl = styled.div`
   padding: 16px 0;
   border-bottom: 2px solid ${p => p.theme.colors.secondary};
+  ${(props) => {
+    switch (props.case) {
+      case 'Education':
+        return `
+          border-bottom: none;
+        `;
+      default:
+        return `
+         border-bottom: 2px solid ${p => p.theme.colors.secondary};
+        `;
+    }
+  }}
 `;
 const BlockTitle = styled.h3`
   font-weight: 700;
