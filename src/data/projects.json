@@ -37,7 +37,7 @@
     "type": "Team Project",
     "name": "TMPL",
     "deployLink": "https://tmplgitp.gatsbyjs.io/",
-    "period": "December",
+    "period": "February",
     "stack": "Webpack, React, Gatsby.js, Google Maps API, i18next, Git",
     "descr": "Static website of a modern gym with adaptive design for mobile, tablet and desktop breakpoints. Browse",
     "codeLink": "https://github.com/oksanastets-code/TMPL",
