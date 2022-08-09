@@ -17,10 +17,13 @@ export const Languages = ({ title, stack }) => (
 const Block = styled.div`
 `;
 const Title = styled.h3`
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
+ font-size: 160px;
+  line-height: 1.23;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 1280px) {
+     font-size: 22px;
+  }
 `;
 const List = styled.ul`
   list-style: initial;
