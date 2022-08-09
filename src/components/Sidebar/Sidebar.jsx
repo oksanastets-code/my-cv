@@ -20,10 +20,10 @@ export const Sidebar = () => {
   );
 };
 const AsideBar = styled.aside`
-  width: 370px;
-  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   padding: 40px 35px 40px 35px;
   color: ${p => p.theme.colors.textSidebar};
@@ -39,4 +39,11 @@ const AsideBar = styled.aside`
     #1e2939,
     rgba(30, 41, 57, 0.5)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  @media screen and (min-width: 1280px) {
+    width: 370px;
+    height: 100%;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+  }
 `;

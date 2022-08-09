@@ -8,6 +8,12 @@ export const Photo = () => (
   <Image src={`${img}`} alt="my photo" />
 );
 const Image = styled.img`
-  width: 300px;
+  width: 100%;
+  /* height: 100%; */
   /* margin-bottom: 50px; */
+
+  @media screen and (min-width: 1280px) {
+       width: 300px;
+     
+  }
 `;

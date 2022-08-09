@@ -5,8 +5,8 @@ import { Sidebar } from './Sidebar';
 export const App = () => {
   return (
     <Container>
-      <MainContant />
       <Sidebar />
+      <MainContant />
     </Container>
   );
 };
