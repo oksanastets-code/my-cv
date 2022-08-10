@@ -8,11 +8,14 @@ export const Container = ({ children }) => (
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 1240px;
-  height: 1754px;
+  width: 100%;
+  height: auto;
   background: #fff;
 
  @media screen and (min-width: 1280px) {
+width: 1240px;
+  height: 1754px;
+
      flex-direction: row;
   }
 `;

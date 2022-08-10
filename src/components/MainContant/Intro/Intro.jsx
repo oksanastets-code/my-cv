@@ -22,21 +22,48 @@ export const Intro = () => (
 const SummaryBlock = styled.div`
   color: ${p => p.theme.colors.title};
   border-bottom: 2px solid ${p => p.theme.colors.secondary};
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    padding: 10px;
+   color: ${p => p.theme.colors.textSidebar};
+  }
+
+  @media screen and (min-width: 1280px) {
+      padding: 0;
+     color: ${p => p.theme.colors.title};
+  }
 `;
 const Title = styled.h1`
-  font-weight: 700;
-  font-size: 70px;
+  font-size: 30px;
+@media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+      font-size: 70px;
+  }
+
+
 `;
 const Job = styled.h2`
-  font-style: normal;
-  font-weight: bold;
   font-size: 18px;
 `;
 const Summary = styled.p`
+  
+  
+  color: ${p => p.theme.colors.primary};
+
+  @media screen and (min-width: 768px) {
+    /* width: 100%; */
+   color: ${p => p.theme.colors.textSidebar};
+  }
+  @media screen and (min-width: 1280px) {
   width: 600px;
   padding-top: 16px;
   padding-bottom: 16px;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   color: ${p => p.theme.colors.primary};
+  }
 `;

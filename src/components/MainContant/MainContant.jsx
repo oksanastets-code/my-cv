@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+import Media from 'react-media';
+import { breakpoints } from 'constants/breakpoints';
+
 import { Intro } from '../MainContant/Intro/Intro';
 import { ProjectList } from '../MainContant/Projects/ProjectList/ProjectList';
 import { WorkList } from '../MainContant/WorkList/Worklist';
@@ -12,7 +15,7 @@ import education from '../../data/education.json';
 export const MainContant = () => {
   return (
     <MainContantSection>
-      <Intro />
+      <Media query={breakpoints.desktop} render={() => <Intro />} />
       <ProjectList items={projects} />
       <WorkList items={work} />
       <Education items={education} />
@@ -21,7 +24,7 @@ export const MainContant = () => {
 };
 
 const MainContantSection = styled.div`
-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
