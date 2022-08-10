@@ -34,14 +34,15 @@ export const ContactBlock = ({ items }) => {
 
 const Block = styled.div``;
 const Title = styled.h3`
-  font-size: 160px;
+  font-size: 22px;
+  /* font-size: 160px; */
   line-height: 1.23;
   margin-bottom: 10px;
-  text-align: center;
-
+  /* text-align: center; */
+  text-align: start;
   @media screen and (min-width: 1280px) {
-     font-size: 22px;
-     text-align: start;
+    font-size: 22px;
+    text-align: start;
   }
 `;
 const ContactItem = styled.li`
@@ -50,8 +51,8 @@ const ContactItem = styled.li`
   line-height: 1.5;
 
   @media screen and (min-width: 1280px) {
-     font-size: 16px;
-     text-align: start;
+    font-size: 16px;
+    text-align: start;
   }
 `;
 const Icon = styled.svg`
@@ -60,12 +61,12 @@ const Icon = styled.svg`
 `;
 const Address = styled.address`
   font-style: normal;
-`
+`;
 const Link = styled.a`
   display: flex;
   align-items: center;
   justify-content: start;
   &:hover {
-  color: ${p => p.theme.colors.secondary};
+    color: ${p => p.theme.colors.secondary};
   }
-`
+`;

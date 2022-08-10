@@ -17,9 +17,12 @@ export const Languages = ({ title, stack }) => (
 const Block = styled.div`
 `;
 const Title = styled.h3`
- font-size: 160px;
+ font-size: 22px;
+  /* font-size: 160px; */
   line-height: 1.23;
   margin-bottom: 10px;
+  /* text-align: center; */
+  text-align: start;
 
   @media screen and (min-width: 1280px) {
      font-size: 22px;

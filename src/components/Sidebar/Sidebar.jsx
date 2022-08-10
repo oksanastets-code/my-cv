@@ -60,6 +60,6 @@ const TabletBlock = styled.div`
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     display: flex;
-    padding: 10px;
+    /* padding: 10px; */
   }
 `;
