@@ -26,7 +26,7 @@ const SummaryBlock = styled.div`
 
   @media screen and (min-width: 768px) {
     width: 50%;
-    padding: 15px 10px;
+    margin-left: 15px;
     color: ${p => p.theme.colors.textSidebar};
   }
 

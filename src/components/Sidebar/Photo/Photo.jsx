@@ -14,9 +14,11 @@ const Image = styled.img`
   @media screen and (min-width: 768px) {
     width: 50%;
     height: 100%;
+    
   }
 
   @media screen and (min-width: 1280px) {
     width: 300px;
+    
   }
 `;

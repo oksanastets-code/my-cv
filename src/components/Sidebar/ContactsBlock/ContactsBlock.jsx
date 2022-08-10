@@ -32,7 +32,8 @@ export const ContactBlock = ({ items }) => {
   );
 };
 
-const Block = styled.div``;
+const Block = styled.div`
+order: 0`;
 const Title = styled.h3`
   font-size: 22px;
   /* font-size: 160px; */
@@ -47,7 +48,7 @@ const Title = styled.h3`
 `;
 const ContactItem = styled.li`
   margin-bottom: 8px;
-  font-size: 50px;
+  font-size: 16px;
   line-height: 1.5;
 
   @media screen and (min-width: 1280px) {

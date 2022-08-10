@@ -18,16 +18,20 @@ export const Sidebar = () => {
     <AsideBar>
       <TabletBlock>
         <Photo />
-        <Media query={breakpoints.onlyTablet} render={() => <Intro />} />
+        <Media query={breakpoints.maxTablet} render={() => <Intro />} />
       </TabletBlock>
-      <ContactBlock items={contacts} />
+      <ExtraBlock>
+        <ContactBlock items={contacts} />
       <Skills items={skills} />
       <Languages title={languages.title} stack={languages.stack} />
+      </ExtraBlock>
+      
     </AsideBar>
   );
 };
 const AsideBar = styled.aside`
   width: 100%;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
@@ -57,9 +61,23 @@ const AsideBar = styled.aside`
   }
 `;
 const TabletBlock = styled.div`
-
+ display: flex;
+ flex-direction: column;
+ 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
-    display: flex;
-    /* padding: 10px; */
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
   }
 `;
+const ExtraBlock = styled.div`
+width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media screen and (min-width: 1280px) {
+    flex-direction: column;
+  }
+`
