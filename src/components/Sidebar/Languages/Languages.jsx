@@ -37,9 +37,14 @@ const List = styled.ul`
   list-style-position: inside;
 `;
 const Item = styled.li`
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 8px;
   color: ${p => p.theme.colors.secondary};
+@media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 `;
 const ItemText = styled.span`
   color: ${p => p.theme.colors.textSidebar};
