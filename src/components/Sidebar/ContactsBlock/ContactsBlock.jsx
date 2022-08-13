@@ -47,13 +47,15 @@ const Title = styled.h3`
   }
 `;
 const ContactItem = styled.li`
-  margin-bottom: 8px;
+&:not(:last-child) {
+   margin-bottom: 8px;
+ }
   font-size: 16px;
   line-height: 1.5;
 
   @media screen and (min-width: 1280px) {
-    font-size: 16px;
-    text-align: start;
+    /* font-size: 16px;
+    text-align: start; */
   }
 `;
 const Icon = styled.svg`

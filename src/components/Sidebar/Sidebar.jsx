@@ -34,7 +34,6 @@ const AsideBar = styled.aside`
   padding: 15px;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
   
   color: ${p => p.theme.colors.textSidebar};
@@ -56,7 +55,6 @@ const AsideBar = styled.aside`
     height: 100%;
     padding: 40px 35px 40px 35px;
     flex-direction: column;
-
     /* flex-wrap: nowrap; */
   }
 `;
@@ -76,8 +74,10 @@ const ExtraBlock = styled.div`
 width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   @media screen and (min-width: 1280px) {
+   
     flex-direction: column;
+    justify-content: flex-start;
   }
 `

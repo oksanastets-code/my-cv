@@ -16,6 +16,7 @@ export const Skills = ({ items }) => (
 const SkillsBlock = styled.div`
   order: 2;
   width: 100%;
+  margin-top: 10px;
   @media screen and (min-width: 1280px) {
     order: 1;
   }
@@ -29,7 +30,11 @@ const SkillsList = styled.ul`
   }
 `
 const Block = styled.li`
-   &:not(:last-child) {
-    margin-bottom: 80px;
+width: 50%;
+@media screen and (min-width: 1280px) {
+  width: 100%;
+  /* &:not(:last-child) {
+   margin-bottom: 80px;
+ } */
   }
 `;
