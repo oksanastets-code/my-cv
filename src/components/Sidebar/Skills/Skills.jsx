@@ -33,6 +33,7 @@ const Block = styled.li`
 width: 50%;
 @media screen and (min-width: 1280px) {
   width: 100%;
+  margin-bottom: 70px;
   /* &:not(:last-child) {
    margin-bottom: 80px;
  } */
