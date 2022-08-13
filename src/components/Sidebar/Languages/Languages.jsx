@@ -15,6 +15,7 @@ export const Languages = ({ title, stack }) => (
   </Block>
 );
 const Block = styled.div`
+
 order: 0;
 @media screen and (min-width: 1280px) {
   order: 3;

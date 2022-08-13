@@ -21,11 +21,24 @@ export const Sidebar = () => {
         <Media query={breakpoints.maxTablet} render={() => <Intro />} />
       </TabletBlock>
       <ExtraBlock>
-        <ContactBlock items={contacts} />
-      <Skills items={skills} />
-      <Languages title={languages.title} stack={languages.stack} />
+        {/* <ContLangBlock> */}
+          <ContactBlock items={contacts} />
+          {/* <Media
+            query={breakpoints.maxTablet}
+            render={() => (
+              <Languages title={languages.title} stack={languages.stack} />
+            )}
+          /> */}
+        {/* </ContLangBlock> */}
+        <Skills items={skills} />
+        {/* <Media
+          query={breakpoints.desktop}
+          render={() => (
+            <Languages title={languages.title} stack={languages.stack} />
+          )}
+        /> */}
+        <Languages title={languages.title} stack={languages.stack} />
       </ExtraBlock>
-      
     </AsideBar>
   );
 };
@@ -35,7 +48,7 @@ const AsideBar = styled.aside`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
   color: ${p => p.theme.colors.textSidebar};
   /* background-color: #1e2939; */
   background: #1e2939; /* fallback for old browsers */
@@ -59,9 +72,9 @@ const AsideBar = styled.aside`
   }
 `;
 const TabletBlock = styled.div`
- display: flex;
- flex-direction: column;
- 
+  display: flex;
+  flex-direction: column;
+
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     flex-direction: row;
     margin-bottom: 15px;
@@ -71,13 +84,16 @@ const TabletBlock = styled.div`
   }
 `;
 const ExtraBlock = styled.div`
-width: 100%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   @media screen and (min-width: 1280px) {
-   
     flex-direction: column;
     justify-content: flex-start;
   }
+`;
+const ContLangBlock = styled.div`
+  display: flex;
+  justify-content: space-between;
 `
