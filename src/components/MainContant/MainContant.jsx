@@ -28,7 +28,7 @@ const MainContantSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 20 px;
+  padding: 0 20px;
   @media screen and (min-width: 768px) {
     
   }
