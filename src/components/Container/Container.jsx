@@ -12,10 +12,9 @@ const MainContainer = styled.div`
   height: auto;
   background: #fff;
 
- @media screen and (min-width: 1280px) {
-width: 1240px;
-  height: 1754px;
-
-     flex-direction: row;
+  @media screen and (min-width: 1280px) {
+    width: 1240px;
+    height: 1754px;
+    flex-direction: row;
   }
 `;

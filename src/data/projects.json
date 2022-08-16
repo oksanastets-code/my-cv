@@ -6,7 +6,7 @@
     "deployLink": "https://book-read.vercel.app/",
     "period": "June",
     "stack": "Webpack, React, CSS-in-JS, Axios, React-Router, Redux, React-Media, Formik, Git",
-    "descr": "Complete (frontend + backend) final project-application as helper to develop useful habits. User can create his own profile with bookshelf and set his goals. Application calculates amount of pages for daily reading to achieve the goal, build a chart and motivate user. This is frontend-part. Browse",
+    "descr": "Complete (frontend + backend) final project-application as helper to develop useful habits. User can create his own profile with bookshelf and set his goals. Application calculates amount of pages for daily reading to achieve the goal, builds a chart and motivates user. This is frontend-part. Browse",
     "codeLink": "https://github.com/oksanastets-code/book-reading-frontend",
     "note": "Role: Contributor. Experience to work with React libraries"
   },
