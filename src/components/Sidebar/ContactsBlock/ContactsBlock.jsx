@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 import sprite from '../../../img/sprite.svg';
 
-import Media from 'react-media';
-import { breakpoints } from 'constants/breakpoints';
-
 export const ContactBlock = ({ items }) => {
   return (
     <Block>
@@ -19,19 +16,14 @@ export const ContactBlock = ({ items }) => {
                 {item.point}
               </Link>
             ) : (
-                 <Media
-          query={breakpoints.desktop}
-          render={() => (<Address>
+                <Address>
                 <Link href={item.href}>
                   <Icon width="16" height="1rem">
                     <use href={`${sprite}` + item.icon}></use>
                   </Icon>
                   {item.point}
                 </Link>
-              </Address>
-          )}
-        />
-              
+              </Address>              
             )}
           </ContactItem>
         ))}

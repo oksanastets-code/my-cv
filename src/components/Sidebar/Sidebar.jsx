@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-import Media from 'react-media';
-import { breakpoints } from 'constants/breakpoints';
-
 import { Photo } from './Photo/Photo';
-import { Intro } from 'components/MainContant/Intro/Intro';
 import { ContactBlock } from '../Sidebar/ContactsBlock/ContactsBlock';
 import { Skills } from '../Sidebar/Skills/Skills';
 import { Languages } from '../Sidebar/Languages/Languages';
@@ -18,25 +14,10 @@ export const Sidebar = () => {
     <AsideBar>
       <TabletBlock>
         <Photo />
-        <Media query={breakpoints.maxTablet} render={() => <Intro />} />
       </TabletBlock>
       <ExtraBlock>
-        {/* <ContLangBlock> */}
-          <ContactBlock items={contacts} />
-          {/* <Media
-            query={breakpoints.maxTablet}
-            render={() => (
-              <Languages title={languages.title} stack={languages.stack} />
-            )}
-          /> */}
-        {/* </ContLangBlock> */}
+        <ContactBlock items={contacts} />
         <Skills items={skills} />
-        {/* <Media
-          query={breakpoints.desktop}
-          render={() => (
-            <Languages title={languages.title} stack={languages.stack} />
-          )}
-        /> */}
         <Languages title={languages.title} stack={languages.stack} />
       </ExtraBlock>
     </AsideBar>
@@ -75,10 +56,6 @@ const TabletBlock = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
-    flex-direction: row;
-    margin-bottom: 15px;
-  }
   @media screen and (min-width: 1280px) {
     margin-bottom: 0;
   }

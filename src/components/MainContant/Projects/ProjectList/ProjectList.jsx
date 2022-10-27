@@ -4,9 +4,6 @@ import { ContainerBlock } from '../../ContainerBlock';
 import { Project } from '../Project/Project';
 
 export const ProjectList = ({ name, items }) => {
-  // const { id, type, deployLink, name, period, stack, descr, note, codeLink } =
-  //   items;
-
   return (
     <ContainerBlock name={'Project experience'}>
       <ul>
